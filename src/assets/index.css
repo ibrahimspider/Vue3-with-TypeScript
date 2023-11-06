@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: HyliaSerif;
+  src: url("HyliaSerifBeta-Regular.otf") format("opentype");
+}
+
+h1 {
+    font-family: HyliaSerif;
+    letter-spacing: 4px;
+}
